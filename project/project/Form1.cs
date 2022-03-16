@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
 using System.Drawing;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
@@ -68,14 +68,13 @@ namespace project
             }
 
         }
-        private void fruitGroentenToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            showPanel("Fruit");
-        }
-
         private void vleesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             showPanel("Vlees");
+        }
+        private void fruitGroentenToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            showPanel("Fruit");
         }
 
         private void visToolStripMenuItem_Click(object sender, EventArgs e)
@@ -95,5 +94,6 @@ namespace project
             Fruit.Hide();
             Vlees.Hide();
         }
+
     }
 }
